@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Description change according to site" />
+    <link rel="icon" href="" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Keyboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="board">
+        <h1>Welcome to the <span class="span-board">BOARD</span>.</h1>
+        <p>We type, along with you.</p>
+      </div>
+      <div class="input">
+        <input type="text" name="text" id="text" class="finput" />
+      </div>
+      <div class="keys">
+        <audio id="audio" controls style="display: none">
+          <source src="./keyaudio.mp3" type="audio/mpeg" />
+        </audio>
+        <div class="row1 row">
+          <span class="key" data-number="81">Q</span
+          ><span class="key" data-number="87">W</span
+          ><span class="key" data-number="69">E</span
+          ><span class="key" data-number="82">R</span
+          ><span class="key" data-number="84">T</span
+          ><span class="key" data-number="89">Y</span
+          ><span class="key" data-number="85">U</span
+          ><span class="key" data-number="73">I</span
+          ><span class="key" data-number="79">O</span
+          ><span class="key" data-number="80">P</span>
+        </div>
+        <div class="row2 row">
+          <span class="key" data-number="65">A</span
+          ><span class="key" data-number="83">S</span
+          ><span class="key" data-number="68">D</span
+          ><span class="key" data-number="70">F</span
+          ><span class="key" data-number="71">G</span
+          ><span class="key" data-number="72">H</span
+          ><span class="key" data-number="74">J</span
+          ><span class="key" data-number="75">K</span
+          ><span class="key" data-number="76">L</span>
+        </div>
+        <div class="row3 row">
+          <span class="key" data-number="90">Z</span
+          ><span class="key" data-number="88">X</span
+          ><span class="key" data-number="67">C</span
+          ><span class="key" data-number="86">V</span
+          ><span class="key" data-number="66">B</span
+          ><span class="key" data-number="78">N</span
+          ><span class="key" data-number="77">M</span>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
